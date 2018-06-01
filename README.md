@@ -1,6 +1,8 @@
 # dga_identification
 classification of dga based on sample data collected as csv
 
+*"data_extraction.py" exracts the required data from "dgadom.csv" and creates a new csv named "mix.csv" changing the string  classification to integer values
+
 *file named 'model.py' (initial model created and accuracy is poor to low)
  creates a model using simple Sequential 'Dense' layers from Keras Toolkit and saves it as json file named 'model.json' with corresponding weights stored in 'model.h5'
 'test.py' file loads the json and h5 file of 'model' & tests the model and its accuracy
